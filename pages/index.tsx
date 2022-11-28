@@ -41,6 +41,9 @@ const Home = () => {
                 <div className={styles.radioGroupItems}>
                   <input type="radio" name="colour" value="black" id="black" /><label htmlFor="black">Black</label>
                 </div>
+                <div className={styles.radioGroupItems}>
+                  <input type="radio" name="colour" value="brown" id="brown" /><label htmlFor="brown">Brown</label>
+                </div>
               </div>
             </div>
             <div className={styles.inputGroup}>
